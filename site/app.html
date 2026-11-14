@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#ddd9d3">
+  <title>FOOT NOTE · Walk beyond what you see</title>
+  <link rel="stylesheet" href="styles.css?v=original-paper-3">
+</head>
+<body>
+  <main class="phone" aria-label="FOOT NOTE login prototype">
+    <div class="status" aria-hidden="true"><span>9:41</span><span class="island"></span><span class="indicators">▮▮▮ ◒ ▰</span></div>
+    <header class="brand"><h1>FOOT NOTE</h1><p>Walk beyond what you see.</p></header>
+    <section id="splash" class="splash" aria-label="Welcome screen">
+      <div class="splash-art" role="img" aria-label="A collage of historic Shanghai building stickers"></div>
+      <button id="skip" class="skip">Enter <span aria-hidden="true">↗</span></button>
+    </section>
+    <section id="login" class="login" aria-label="Choose a login method" hidden>
+      <div class="login-art" role="img" aria-label="A collage of historic Shanghai building stickers"></div>
+      <button class="paper primary" id="one-click"><span class="sr-only">One-click login</span></button>
+      <div class="quick"><h2><span>Quick Login</span></h2>
+        <div class="providers">
+          <button class="provider" data-provider="WeChat" aria-label="Log in with WeChat"><span class="provider-art wechat" aria-hidden="true"></span><span class="provider-label">WeChat</span></button>
+          <button class="provider" data-provider="QQ" aria-label="Log in with QQ"><span class="provider-art qq" aria-hidden="true"></span><span class="provider-label">QQ</span></button>
+          <button class="provider" data-provider="Apple" aria-label="Log in with Apple"><span class="provider-art apple" aria-hidden="true"></span><span class="provider-label">Apple</span></button>
+        </div>
+      </div>
+      <button class="prototype-info" id="info">Interactive demo · No live sign-in</button>
+    </section>
+    <section class="success" id="success" hidden aria-labelledby="success-title"><span class="success-mark" aria-hidden="true">↗</span><p class="eyebrow">YOUR WALK STARTS HERE</p><h2 id="success-title">Ready to explore the city?</h2><p>You have completed the login demo.<br>City exploration and maps are coming next.</p><button class="paper" id="restart"><span class="paper-label">Back to login</span></button></section>
+  </main>
+  <dialog id="auth-dialog" aria-labelledby="dialog-title">
+    <form id="auth-form" novalidate>
+      <div class="dialog-top"><span class="eyebrow">FOOT NOTE / DEMO</span><button type="button" class="close" id="close-dialog" aria-label="Close login dialog">×</button></div>
+      <h2 id="dialog-title">Log in with your phone</h2><p id="dialog-description">Enter your phone number to try the login demo.</p>
+      <div id="phone-fields"><label for="phone">Phone number</label><div class="phone-input"><span>+86</span><input id="phone" type="tel" inputmode="numeric" autocomplete="tel-national" placeholder="11-digit phone number" maxlength="11" aria-describedby="error"></div></div>
+      <label class="consent"><input id="consent" type="checkbox"><span>I understand this is a demo. No verification codes will be sent or real accounts authorized.</span></label>
+      <p class="error" id="error" role="alert"></p>
+      <button class="paper submit" id="submit" type="submit"><span class="paper-label" id="submit-label">Try demo login</span></button>
+      <p class="demo-note">Demo only. Your phone number is not saved.</p>
+    </form>
+  </dialog>
+  <script src="app.js?v=visible-edges-4"></script>
+</body>
+</html>

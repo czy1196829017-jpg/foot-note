@@ -1,0 +1,14 @@
+.sticker-drag-ghost{position:fixed;width:82px;height:112px;object-fit:contain;transform:translate(-50%,-50%) rotate(-6deg);pointer-events:none;z-index:100;filter:drop-shadow(3px 4px 3px #0005)}
+#chat-notebook.sticker-drop-ready{filter:drop-shadow(0 0 5px #c54d3c);transform:scale(1.2)}
+#chat-notebook.sticker-saved:after{content:'✓';position:absolute;right:-3px;top:-6px;background:#766753;color:#f5f3f1;border-radius:50%;width:20px;height:20px;font:16px/20px Arial;text-align:center}
+#chat-place-toggle,[data-film],[data-task],.chat-task-ticket .task-thumbnail,.chat-work .work-poster{touch-action:none;-webkit-user-drag:none;user-select:none}
+[data-sticker-building]{cursor:pointer}
+.chat-photo-card{touch-action:none;-webkit-user-drag:none;user-select:none}
+.journal-item.journal-photo{padding:6px 6px 16px;background:#f5f3f1;border:1px solid #a79a8d;box-shadow:2px 3px 2px #76675355;box-sizing:border-box}
+.journal-remove{position:absolute;right:0;top:0;width:27px;height:27px;z-index:10;border:0;padding:0;background:url('assets/chat/144f6.png') center 38%/100% 164%;color:#242421;font:25px/27px Arial,sans-serif;cursor:pointer;opacity:0;pointer-events:none;transition:opacity .15s}
+.journal-item:hover>.journal-remove,.journal-item:focus-within>.journal-remove,#journal-example [data-sticker-building]:hover>.journal-remove,#journal-example [data-sticker-building]:focus-within>.journal-remove{opacity:1;pointer-events:auto}
+@media(hover:none){.journal-remove{opacity:1;pointer-events:auto}}
+#sticker-link-menu{position:absolute;z-index:30;padding:7px;background:#e3dcd3;box-shadow:2px 3px 5px #76675366;border:1px solid #a79a8d}
+#sticker-link-menu button{font:12px/1.5 Arial,sans-serif;color:#323232;border:0;background:url('assets/chat/144f6.png') center/100% 164%;padding:9px 12px;cursor:pointer}
+#profile-gallery-viewport[data-detail=buildings] .profile-network-scene [data-sticker-building]{pointer-events:none}
+#journal-example [data-sticker-building],#community-diary [data-sticker-building],.reader-example [data-sticker-building],#profile-overview-scene [data-sticker-building],.profile-network-scene [data-sticker-building]{pointer-events:auto}

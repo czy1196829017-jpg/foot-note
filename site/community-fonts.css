@@ -1,0 +1,56 @@
+@font-face {
+  font-family: 'Community Belgrano';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(assets/community/fonts/Belgrano-400.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Community Besley';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(assets/community/fonts/Besley-400.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Community Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(assets/community/fonts/Inter-400.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Community Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(assets/community/fonts/Inter-500.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Community Playfair Display';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(assets/community/fonts/Playfair-Display-400.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Community Playfair Display';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(assets/community/fonts/Playfair-Display-500.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Community Playfair Display';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(assets/community/fonts/Playfair-Display-700.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Community Playfair Display';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url(assets/community/fonts/Playfair-Display-900.ttf) format('truetype');
+}

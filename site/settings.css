@@ -1,0 +1,15 @@
+#profile-settings{position:absolute;left:340px;top:48px;width:34px;height:54.4px;z-index:6;border:0;background:none;cursor:pointer;padding:0}
+#profile-settings .settings-paper{position:absolute;left:0;top:0;width:34px;height:54.4px;transform:scaleX(-1);pointer-events:none}
+#profile-settings .settings-symbol{position:absolute;left:7px;top:14px;pointer-events:none}
+#settings-page{position:absolute;inset:49px 0 82px;z-index:14;background:#ddd8d2;color:#515151;font:14px/1.5 'Community Inter',Arial,sans-serif}
+#settings-page header{display:flex;align-items:center;gap:15px;height:55px;padding:0 16px;background:#b1a08d url('assets/chat/75370.png') center/100% 100%}
+#settings-page h1{font:24px/1.2 Georgia,serif;margin:0;color:#24221f}
+#settings-back{font:700 23px/1 Arial,sans-serif;width:30px;height:30px;border:0;background:url('assets/chat/144f6.png') center 38%/100% 164%;color:#242421;cursor:pointer;padding:0;display:grid;place-items:center}
+.settings-scroll{height:calc(100% - 55px);padding:18px;overflow:auto;scrollbar-width:none;box-sizing:border-box}.settings-scroll::-webkit-scrollbar{display:none}
+.settings-scroll section{padding:32px 24px;margin-bottom:18px;background:#e3dcd3 url('assets/chat/027f3.png') center/100% 100%;filter:drop-shadow(1px 2px 2px #76675330)}
+.settings-scroll h2{font:21px/1.3 Georgia,serif;margin:0 0 14px;color:#24221f}
+.settings-scroll label{display:block;margin:12px 0 6px}.settings-scroll input,.settings-scroll textarea,.settings-scroll select{font:inherit;width:100%;box-sizing:border-box;border:1px solid #a79a8d;border-radius:0;background:#f5f3f1;color:#515151;padding:9px;resize:vertical}
+.settings-scroll button[type=submit]{margin-top:18px;padding:9px 20px;border:0;background:#b1a08d url('assets/chat/144f6.png') center/100% 100%;color:#24221f;font:inherit;cursor:pointer}
+.settings-note{font-size:12px;margin:0 0 12px}#settings-status{min-height:18px;margin:8px 0 0;color:#766753}
+html[lang=zh-CN] .chat-topic{font-family:Arial,sans-serif}html[lang=zh-CN] .profile-art p{line-height:1.35}
+.profile-back span,.chat-back span,.chat-camera-back>span,.chat-photo-close>span,.reader-back>span{font:700 23px/1 Arial,sans-serif;color:#242421;transform:translateY(-1px)}

@@ -1,0 +1,21 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="15" height="19" viewBox="0 0 15 19" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="Vector" filter="url(#filter0_d_0_20)">
+<use xlink:href="#stroke0_0_20" fill="#453C34" fill-opacity="0.78" shape-rendering="crispEdges"/>
+<mask id="stroke1_0_20" fill="white">
+<use xlink:href="#stroke0_0_20"/>
+</mask>
+<path d="M7 0C5.45234 0 4.11523 0.635517 3.28125 1.66587C2.44727 2.69621 2.1 4.03215 2.1 5.47356V6.23077H4.2V5.47356C4.2 4.38101 4.47344 3.52103 4.92188 2.96394C5.37031 2.40685 5.98008 2.07692 7 2.07692C8.02266 2.07692 8.62969 2.38792 9.07813 2.94231C9.52656 3.49669 9.8 4.36749 9.8 5.47356V6.23077H11.9V5.47356C11.9 4.02404 11.5309 2.67458 10.6969 1.64423C9.86289 0.613882 8.54492 0 7 0ZM2.1 6.92308C0.940625 6.92308 0 7.85337 0 9V15.9231C0 17.0697 0.940625 18 2.1 18H11.9C13.0594 18 14 17.0697 14 15.9231V9C14 7.85337 13.0594 6.92308 11.9 6.92308H2.1ZM7 10.3846C7.77383 10.3846 8.4 11.0039 8.4 11.7692C8.4 12.2803 8.11836 12.7185 7.7 12.9591V14.5385C7.7 14.9198 7.38555 15.2308 7 15.2308C6.61445 15.2308 6.3 14.9198 6.3 14.5385V12.9591C5.88164 12.7185 5.6 12.2803 5.6 11.7692C5.6 11.0039 6.22617 10.3846 7 10.3846Z" stroke="black" shape-rendering="crispEdges" mask="url(#stroke1_0_20)"/>
+</g>
+<defs>
+<filter id="filter0_d_0_20" x="0" y="0" width="15" height="19" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dx="1" dy="1"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_0_20"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_0_20" result="shape"/>
+</filter>
+<path id="stroke0_0_20" d="M7 0C5.45234 0 4.11523 0.635517 3.28125 1.66587C2.44727 2.69621 2.1 4.03215 2.1 5.47356V6.23077H4.2V5.47356C4.2 4.38101 4.47344 3.52103 4.92188 2.96394C5.37031 2.40685 5.98008 2.07692 7 2.07692C8.02266 2.07692 8.62969 2.38792 9.07812 2.94231C9.52656 3.49669 9.8 4.36749 9.8 5.47356V6.23077H11.9V5.47356C11.9 4.02404 11.5309 2.67458 10.6969 1.64423C9.86289 0.613882 8.54492 0 7 0ZM2.1 6.92308C0.940625 6.92308 0 7.85337 0 9V15.9231C0 17.0697 0.940625 18 2.1 18H11.9C13.0594 18 14 17.0697 14 15.9231V9C14 7.85337 13.0594 6.92308 11.9 6.92308H2.1ZM7 10.3846C7.77383 10.3846 8.4 11.0039 8.4 11.7692C8.4 12.2803 8.11836 12.7185 7.7 12.9591V14.5385C7.7 14.9198 7.38555 15.2308 7 15.2308C6.61445 15.2308 6.3 14.9198 6.3 14.5385V12.9591C5.88164 12.7185 5.6 12.2803 5.6 11.7692C5.6 11.0039 6.22617 10.3846 7 10.3846Z"/>
+</defs>
+</svg>
